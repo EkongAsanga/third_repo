@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  height: 25px;
+  top: 0px;
+  padding: 0px;
+  background-color:black;
+}
+
+.nav_1 {
+  float: left;
+  background-color: black;
+  width: 30%;
+}
+
+.nav {
+  padding: 0px;
+  background-color:black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-top: 45px;
+  width: 100%;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+.services {
+  width: 100%;
+  height: 500px;
+}
+
+.services1 {
+  width: 100%;
+  height: 300px;
+}
+
+.services2 {
+  width: 40%;
+  height: 300px;
+  float: left;
+}
+
+.services2A {
+  width: 5%;
+  height: 300px;
+  float: left;
+}
+
+.services2B {
+  width: 45%;
+  height: 200px;
+  float: right;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.services3 {
+  width: 58%;
+  height: 300px;
+  float: right;
+}
+
+.services3A {
+  width: 25%;
+  height: 150px;
+  float: left;
+  padding: 40px;
+  border-radius: 25px;
+  background-color:gray;
+}
+
+.services3B {
+  width: 25%;
+  height: 200px;
+  float: left;
+  padding: 20px;
+  border-radius: 25px;
+  margin-left: 50px;
+  background-color: gray;
+}
+
+
+
